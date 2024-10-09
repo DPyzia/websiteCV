@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 25px;
   padding: 0;
 }
 
@@ -39,13 +39,8 @@ a:hover {
 
 /* Navigation Styles */
 
-header img {
-    height: 80px;
-    margin-left: 40px;
-}
 body {
     height: 125vh;
-    /*background-image: url('https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg');*/
     background-size: cover;
     font-family: sans-serif;
     margin-top: 80px;
@@ -65,7 +60,8 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 25px 0 black;
+    box-shadow: 0 0 15px 0 black;
+    justify-content: space-around;
 }
 
 header * {
@@ -80,6 +76,8 @@ header li a {
     color: black;
     text-decoration: none;
 }
+
+hover
 
 /* Section Styles */
 
